@@ -1,0 +1,19 @@
+<div class="container">
+    <h2>Product Details</h2>
+    <div class="detail-sec">
+        <dl>
+            <dt>Name</dt>
+            <dd><input type="text" value="{{product.Name}}"> {{product.Name}}</dd>
+            <dt>Price</dt>
+            <dd>{{product.Price}}</dd>
+            <dt>Quantity</dt>
+            <dd>{{product.Qty}}</dd>    
+            <dt>Manufactured</dt>
+            <dd>{{product.Mfd.toLocaleDateString()}}</dd>
+            <dt>Stock Status</dt>
+            <dd>{{(product.Instock==true) ? 'Available' : 'Out of Stock'}}</dd>
+            <dt>Total</dt>
+            <dd>{{product.Qty * product.Price}}</dd>
+        </dl>
+    </div>
+</div>
