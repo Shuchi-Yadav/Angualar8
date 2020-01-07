@@ -1,0 +1,7 @@
+.addProduct{
+width: 300px;border: 2px solid darkcyan;padding: 10px;border-radius: 10px;margin-bottom: 20px;
+}
+
+.odd{background-color: lightcyan;}
+.even{background-color: lightgoldenrodyellow;}
+.first{background-color:darkorchid;color: white;}
