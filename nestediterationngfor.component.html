@@ -1,0 +1,13 @@
+<div class="container">
+    <h2>Product List</h2>
+    <ul>
+        <li *ngFor = "let item of data">
+            {{item.Category}}
+            <ol type="a">
+                <li *ngFor = "let product of item.Products">
+                    {{product}}
+                </li>
+            </ol>
+        </li>
+    </ul>
+</div>
